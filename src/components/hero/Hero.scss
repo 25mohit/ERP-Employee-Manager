@@ -1,0 +1,114 @@
+.hero-section-div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    // height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    justify-content: center;
+    // align-items: center;
+    // justify-content: space-around;
+    .left-hero{
+        min-width: 350px;
+        width: 40%;
+        box-sizing: border-box;
+        padding: 40px;
+        // background-color: orange;
+        .message{
+            // background-color: green;
+            // margin-left: 20px;
+            line-height: 45px;
+            letter-spacing: 5px;
+            text-align: left;
+            a{
+                text-decoration: none;
+                color: black;
+                font-weight: 500;
+            }
+            a:hover{
+                text-decoration: underline;
+                text-underline-offset: 5px;
+                text-decoration-color: orange;
+            }
+            p{
+                line-height: 25px;
+            }
+        }
+    }
+    .right-hero{
+        width: 60%;
+        justify-content: center;
+        display: flex;
+        .h2-list{
+            width: 50%;
+            text-align: left;
+            h2{
+                line-height: 35px;
+                letter-spacing: 5px;
+                color: rgb(1, 1, 127);
+            }
+            .emplo-list{
+                background-color: rgb(237, 237, 237);
+                margin: 10px 0;
+                width: 350px;
+                border-radius: 5px;
+                // min-width: 250px;
+                align-items: center;
+                padding: 10px 15px;
+                display: flex;
+                justify-content: space-between;
+                .list{
+                    display: flex;
+                    align-items: center;
+                    .ename{
+                        font-weight: 500;
+                        margin: 0 15px;
+                    }
+                    .salary{
+                        display: flex;
+                        color: red;
+                        align-items: center;
+                        font-weight: bold;
+                    }
+                }
+                .delete-bt{
+                    .bt-delete{
+                        border: none;
+                        color: white;
+                        font-weight: bold;
+                        padding: 5px;
+                        border-radius: 5px;
+                        background-color: red;
+                    }
+                    .bt-delete:hover{
+                        cursor: pointer;
+                        background-color: white;
+                        color: red;
+                        transition: 0.8s;
+                    }
+                }
+            }
+        }
+    }
+
+}
+@media screen and ( max-width: 750px) {
+    .hero-section-div{
+        padding: 0;
+        
+    padding-bottom: 40px;
+        justify-content: left;
+            .left-hero{
+                display: none;
+            }
+            .right-hero{
+                // background-color: red;
+                width: 100%;
+                // padding: 0;
+                .h2-list{
+                        width: 100%;
+                        padding: 10px;
+            }
+        }
+    }
+}

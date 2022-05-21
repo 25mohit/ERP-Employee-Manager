@@ -1,0 +1,145 @@
+.hero-section-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100vw;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-section-div .left-hero {
+  min-width: 350px;
+  width: 40%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 40px;
+}
+
+.hero-section-div .left-hero .message {
+  line-height: 45px;
+  letter-spacing: 5px;
+  text-align: left;
+}
+
+.hero-section-div .left-hero .message a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.hero-section-div .left-hero .message a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  -webkit-text-decoration-color: orange;
+          text-decoration-color: orange;
+}
+
+.hero-section-div .left-hero .message p {
+  line-height: 25px;
+}
+
+.hero-section-div .right-hero {
+  width: 60%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero-section-div .right-hero .h2-list {
+  width: 50%;
+  text-align: left;
+}
+
+.hero-section-div .right-hero .h2-list h2 {
+  line-height: 35px;
+  letter-spacing: 5px;
+  color: #01017f;
+}
+
+.hero-section-div .right-hero .h2-list .emplo-list {
+  background-color: #ededed;
+  margin: 10px 0;
+  width: 350px;
+  border-radius: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero-section-div .right-hero .h2-list .emplo-list .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-section-div .right-hero .h2-list .emplo-list .list .ename {
+  font-weight: 500;
+  margin: 0 15px;
+}
+
+.hero-section-div .right-hero .h2-list .emplo-list .list .salary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: red;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+}
+
+.hero-section-div .right-hero .h2-list .emplo-list .delete-bt .bt-delete {
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: red;
+}
+
+.hero-section-div .right-hero .h2-list .emplo-list .delete-bt .bt-delete:hover {
+  cursor: pointer;
+  background-color: white;
+  color: red;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+@media screen and (max-width: 750px) {
+  .hero-section-div {
+    padding: 0;
+    padding-bottom: 40px;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+  .hero-section-div .left-hero {
+    display: none;
+  }
+  .hero-section-div .right-hero {
+    width: 100%;
+  }
+  .hero-section-div .right-hero .h2-list {
+    width: 100%;
+    padding: 10px;
+  }
+}
+/*# sourceMappingURL=Hero.css.map */

@@ -1,0 +1,105 @@
+.registration-div-52{
+    background-color: rgba(0,0,0,0.3);
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    .container-register-52{
+        width: 40%;
+        height: fit-content;
+        padding: 15px;
+        background-color: white;
+        border-radius: 10px;
+        .center-div-52{
+            padding: 10px 0;
+                .header-register-52{
+                    margin: 30px 0;
+                    .close-model-bt{
+                        border: 1px solid black;
+                        background-color: black;
+                        color: white;
+                        font-weight: bold;
+                        padding: 10px 15px;
+                        font-size: 20px;
+                        border-radius: 50%;
+                    }
+                    .close-model-bt:hover{
+                        cursor: pointer;
+                    }
+                }
+                .form-div-99{
+                    justify-content: center;
+                    display: flex;
+                    align-items: center;
+                    .main-center{
+                        input[type=text],input[type=password]{
+                            margin: 5px 0;
+                            padding: 15px;
+                            font-size: 20px;
+                            border: 1px solid rgb(214, 214, 214);
+                            border-radius: 5px;
+                            width: 270px;
+                        }
+                        ::placeholder{
+                            padding-left: 10px;
+                            color: rgb(191, 191, 191);
+                        }
+                        input[type=text]:focus, input[type=password]:focus{
+                            outline: 3px solid rgba(6, 23, 255, 0.6);
+                            // outline-color: red;
+                        }
+                        .register-bt{
+                            margin: 20px 0;
+                            font-size: 17px;
+                            background-color: rgb(41, 205, 41);
+                            color: white;
+                            font-weight: bold;
+                            border-radius: 5px;
+                            padding: 15px 35px;
+                            border: 1px solid rgb(41, 205, 41);
+                        }
+                        .register-bt:hover{
+                            cursor: pointer;
+                        }
+                    }
+                }
+        }
+    }
+}
+@media screen and (max-width:750px){
+            .registration-div-52{
+                padding: 0;
+                margin: 0;
+                    .container-register-52{
+                        padding: 0;
+                        margin: 0;
+                        width: 100%;
+                        height: 100%;
+                            .center-div-52{
+                                // padding: 30px;
+                                height: 100%;
+                                padding: 30px;
+                                background-color: rgba(224, 224, 224, 0.9);
+                                .header-register-52{
+                                    margin: 0;
+                                }
+                                .form-div-99{
+                                    .main-center{
+                                        input[type=text],input[type=password]{
+                                            padding: 10px;
+                                            border: none;
+                                            // width: 100px;
+                                        }
+                                        ::placeholder{
+                                            font-size: 15px;
+                                        }
+                                        }
+                                    }
+                            }
+                    }   
+            }
+}

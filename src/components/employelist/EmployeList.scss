@@ -1,0 +1,93 @@
+.employee-list-m-div{
+    padding-bottom: 60px;
+    .h2-heading{
+        line-height: 45px;
+        letter-spacing: 5px;
+    }
+    .responsive-text{
+        color: red;
+        display: none;
+    }
+    .list-div{
+        justify-content: center;
+        .main-list-emp-div{
+            padding: 10px 25px;
+            display: flex;
+            // flex-wrap: wrap;
+            border: 1px solid gray;
+            margin: 10px 0;
+            justify-content: space-between;
+            .jestify-div{
+                display: flex;
+                gap: 20px;
+                font-size: 20px;
+                .emp-name{ 
+                    font-weight: 600;
+                    letter-spacing: 2px;
+                }
+                .emp-manager{ 
+                    font-weight: 600;
+                    letter-spacing: 2px;
+                }
+                .emp-salary{ 
+                    font-weight: bold;
+                    color: red;
+                }
+             }
+             .delete-bt-emp-list{
+                 align-items: center;
+                 display: flex;
+                 .detail-bt{
+                     padding: 5px 15px;
+                     border-radius: 5px;
+                     color: blue;
+                     font-weight: bold;
+                     border: 1px solid transparent;
+                     background-color: transparent;
+                    }
+                    .detail-bt:hover{
+                     cursor: pointer;
+                 }
+                 .bt-delete{
+                     background-color: red;
+                     border: 1px solid red;
+                     padding: 5px 15px;
+                     border-radius: 5px;
+                     color: white;
+                     font-weight: bold;
+                 }
+                 .bt-delete:hover{
+                     cursor: pointer;
+                     background-color: white;
+                     color: red;
+                     border: 1px solid red;
+                     transition: 0.6s;
+                 }
+             }
+        }
+        .main-list-emp-div:hover{
+            cursor: pointer;
+            border: 1px solid white;
+            background-color: rgb(225, 225, 225);
+        }
+    }
+}
+@media screen and (max-width:750px) {
+        .employee-list-m-div{
+            .responsive-text{
+                display: block;
+            }
+            .list-div{
+                .main-list-emp-div{
+                    // background-color: green;
+                    padding: 0;
+                    .jestify-div{
+                        gap: 5px;
+                        font-size: 15px;
+                        // background-color: orange;
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+}

@@ -1,0 +1,92 @@
+.lockmodel-div {
+  background-color: black;
+  position: fixed;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.lockmodel-div .container {
+  width: 50%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: white;
+}
+
+.lockmodel-div .container h1 span {
+  color: red;
+}
+
+.lockmodel-div .container form {
+  padding-bottom: 50px;
+}
+
+.lockmodel-div .container form .lock-field {
+  padding: 15px;
+  font-size: 20px;
+  border: 1px solid #c9c9c9;
+}
+
+.lockmodel-div .container form ::-webkit-input-placeholder {
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.lockmodel-div .container form :-ms-input-placeholder {
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.lockmodel-div .container form ::-ms-input-placeholder {
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.lockmodel-div .container form ::placeholder {
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.lockmodel-div .container form .lock-field:focus {
+  border: 1px solid orange;
+  outline: 2px solid orange;
+}
+
+.lockmodel-div .container form .enter-bt {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 15px 24px;
+  border: 1px solid red;
+  font-size: 18px;
+  border-radius: 5px;
+  width: 150px;
+  margin: 20px 0;
+}
+
+.lockmodel-div .container form .enter-bt:hover {
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  border: 1px solid green;
+}
+
+@media screen and (max-width: 600px) {
+  .lockmodel-div .container {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=LockModel.css.map */

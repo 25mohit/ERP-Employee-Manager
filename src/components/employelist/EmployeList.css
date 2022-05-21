@@ -1,0 +1,115 @@
+.employee-list-m-div {
+  padding-bottom: 60px;
+}
+
+.employee-list-m-div .h2-heading {
+  line-height: 45px;
+  letter-spacing: 5px;
+}
+
+.employee-list-m-div .responsive-text {
+  color: red;
+  display: none;
+}
+
+.employee-list-m-div .list-div {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.employee-list-m-div .list-div .main-list-emp-div {
+  padding: 10px 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid gray;
+  margin: 10px 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.employee-list-m-div .list-div .main-list-emp-div .jestify-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.employee-list-m-div .list-div .main-list-emp-div .jestify-div .emp-name {
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.employee-list-m-div .list-div .main-list-emp-div .jestify-div .emp-manager {
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.employee-list-m-div .list-div .main-list-emp-div .jestify-div .emp-salary {
+  font-weight: bold;
+  color: red;
+}
+
+.employee-list-m-div .list-div .main-list-emp-div .delete-bt-emp-list {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.employee-list-m-div .list-div .main-list-emp-div .delete-bt-emp-list .detail-bt {
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: blue;
+  font-weight: bold;
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+
+.employee-list-m-div .list-div .main-list-emp-div .delete-bt-emp-list .detail-bt:hover {
+  cursor: pointer;
+}
+
+.employee-list-m-div .list-div .main-list-emp-div .delete-bt-emp-list .bt-delete {
+  background-color: red;
+  border: 1px solid red;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.employee-list-m-div .list-div .main-list-emp-div .delete-bt-emp-list .bt-delete:hover {
+  cursor: pointer;
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.employee-list-m-div .list-div .main-list-emp-div:hover {
+  cursor: pointer;
+  border: 1px solid white;
+  background-color: #e1e1e1;
+}
+
+@media screen and (max-width: 750px) {
+  .employee-list-m-div .responsive-text {
+    display: block;
+  }
+  .employee-list-m-div .list-div .main-list-emp-div {
+    padding: 0;
+  }
+  .employee-list-m-div .list-div .main-list-emp-div .jestify-div {
+    gap: 5px;
+    font-size: 15px;
+    overflow: hidden;
+  }
+}
+/*# sourceMappingURL=EmployeList.css.map */

@@ -1,0 +1,103 @@
+.footer-main-div{
+    background-color: rgb(1, 1, 127);
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-weight: 500;
+    padding: 35px;
+    padding-bottom: 40px;
+    // justify-content: space-around;
+    .subscribtion-div{
+        text-align: left;
+        width: 330px;
+        display: list-item;
+        list-style: none;
+        input[type=text]{
+            border: 1px solid white;
+            padding: 15px ;
+            width: 250px;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        input[type=text]:focus{
+            outline: 3px solid orange;
+            border: 1px solid orange;
+        }
+        ::placeholder{
+            padding-left: 10px;
+            font-size: 16px;
+        }
+        .subscribe{
+                border: 2px solid white;
+                background-color: rgb(1, 1, 127);
+                color: white;
+                margin-top: 15px;
+                font-size: 20px;
+                font-weight: bold;
+                padding: 10px 20px;
+                border-radius: 5px;
+            }
+            .subscribe:hover{
+                cursor: pointer;
+                background-color: rgb(240, 240, 240);
+                color: rgb(1, 1, 127);
+                transition: 0.6s;
+            }
+    }
+    .footer-links{
+        justify-content: space-evenly;
+        display: flex;
+        width: 70%;
+        flex-wrap: wrap;
+        text-align: left;
+        gap: 40px;
+            .heading-p{
+                font-size: 18px;
+                font-weight:bold;
+                user-select: none;
+                margin-bottom: 25px;
+            }
+            ul{
+                user-select: none;
+                list-style: none;
+                padding: 0;
+                li{
+                    margin: 15px 0;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+                li:hover, a:hover{
+                    cursor: pointer;
+                    text-decoration: underline;
+                    text-underline-offset: 10px ;
+                    text-decoration-color: orange;
+                }
+                
+            }
+            // .footer-links-colum-1{
+            // }
+            // .footer-links-colum-2{
+
+            // }
+            // .footer-links-colum-3{
+
+            // }
+            // .footer-links-colum-4{
+
+            // }
+    }
+}
+@media screen and (max-width:750px){
+    .footer-main-div{
+        margin-top: 100px;
+        .footer-links{
+            margin: 15px 0;
+            // background-color: red;
+            justify-content:space-between;
+            // width: 100%;
+            gap: 10px;
+        }
+    }
+}

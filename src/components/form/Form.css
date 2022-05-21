@@ -1,0 +1,82 @@
+.form-div {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("../images/background.webp");
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-div .login-main-div1 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+
+.form-div .login-main-div1 .login-bt {
+  border: none;
+  background-color: white;
+  -webkit-box-shadow: 1px 1px 20px 1px rgba(150, 150, 150, 0.9);
+          box-shadow: 1px 1px 20px 1px rgba(150, 150, 150, 0.9);
+  border-radius: 5px;
+  padding: 20px 35px;
+  color: #3e5aa9;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.form-div .login-main-div1 .login-bt:hover {
+  cursor: pointer;
+}
+
+.form-div .registration-main-div2 {
+  width: 50%;
+}
+
+.form-div .registration-main-div2 .register-bt {
+  border: none;
+  background-color: white;
+  -webkit-box-shadow: 1px 1px 20px 1px rgba(150, 150, 150, 0.9);
+          box-shadow: 1px 1px 20px 1px rgba(150, 150, 150, 0.9);
+  border-radius: 5px;
+  padding: 20px 35px;
+  color: #3e5aa9;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.form-div .registration-main-div2 .register-bt:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+  .form-div .login-main-div1 .login-bt {
+    padding: 10px 15px;
+    background-color: rgba(250, 250, 250, 0.9);
+    font-size: 15px;
+    border-radius: 2px;
+  }
+  .form-div .registration-main-div2 .register-bt {
+    padding: 10px 15px;
+    background-color: rgba(250, 250, 250, 0.9);
+    font-size: 15px;
+    border-radius: 2px;
+  }
+}
+/*# sourceMappingURL=Form.css.map */

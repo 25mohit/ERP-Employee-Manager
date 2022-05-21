@@ -1,0 +1,41 @@
+.error-div {
+  position: fixed;
+  top: 75%;
+  right: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: yellow;
+  color: #01017f;
+  padding: 5px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.error-div .close-model-bt {
+  background-color: transparent;
+  font-size: 18px;
+  border: none;
+  color: #01017f;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.error-div .close-model-bt:hover {
+  cursor: pointer;
+}
+
+.error-div .message {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.error-div .message:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=Error.css.map */

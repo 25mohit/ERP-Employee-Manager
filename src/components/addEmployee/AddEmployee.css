@@ -1,0 +1,89 @@
+.add-employee-div {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 40px;
+}
+
+.add-employee-div .form-div-employe {
+  width: 60%;
+}
+
+.add-employee-div .form-div-employe form input[type=text], .add-employee-div .form-div-employe form input[type=number], .add-employee-div .form-div-employe form input[type=date], .add-employee-div .form-div-employe form textarea {
+  border: 1px solid #9696ff;
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin: 10px;
+  color: #01017f;
+  letter-spacing: 2px;
+  outline: none;
+}
+
+.add-employee-div .form-div-employe form ::-webkit-input-placeholder {
+  font-size: 15px;
+  color: darkgray;
+}
+
+.add-employee-div .form-div-employe form :-ms-input-placeholder {
+  font-size: 15px;
+  color: darkgray;
+}
+
+.add-employee-div .form-div-employe form ::-ms-input-placeholder {
+  font-size: 15px;
+  color: darkgray;
+}
+
+.add-employee-div .form-div-employe form ::placeholder {
+  font-size: 15px;
+  color: darkgray;
+}
+
+.add-employee-div .form-div-employe form input[type=date] {
+  width: 220px;
+}
+
+.add-employee-div .form-div-employe form input[type=text]:focus, .add-employee-div .form-div-employe form input[type=number]:focus, .add-employee-div .form-div-employe form input[type=date]:focus, .add-employee-div .form-div-employe form textarea:focus {
+  border: 1px solid orange;
+  outline: 2px solid orange;
+}
+
+.add-employee-div .form-div-employe form textarea {
+  resize: none;
+  height: 100px;
+  width: 250px;
+}
+
+.add-employee-div .form-div-employe form .submit-bt {
+  background-color: orange;
+  border: none;
+  padding: 15px 25px;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.add-employee-div .form-div-employe form .submit-bt:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+  .add-employee-div {
+    padding-bottom: 40px;
+  }
+  .add-employee-div .form-div-employe {
+    width: 100%;
+  }
+  .add-employee-div .form-div-employe form input[type=text], .add-employee-div .form-div-employe form input[type=number], .add-employee-div .form-div-employe form input[type=date], .add-employee-div .form-div-employe form textarea {
+    border-radius: 3px;
+  }
+}
+/*# sourceMappingURL=AddEmployee.css.map */

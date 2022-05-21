@@ -1,0 +1,29 @@
+.error-div{
+    position: fixed;
+    top: 75%;
+    right: 2%;
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    color: rgb(1, 1, 127);
+    padding:5px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    .close-model-bt{
+        background-color: transparent;
+        font-size: 18px;
+        border: none;
+        color: rgb(1, 1, 127);
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    .close-model-bt:hover{
+        cursor: pointer;
+    }
+        .message{
+            user-select: none;
+        }
+        .message:hover{
+            cursor: pointer;
+        }
+}
