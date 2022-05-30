@@ -1,0 +1,83 @@
+.profile-main-div{
+    justify-content: center;
+    display: flex;
+    padding: 50px 0;
+    background-image: url('../images/2895036.png');
+    background-repeat: no-repeat;
+        form{
+            width: fit-content;
+            // min-width: 450px;
+            font-size: 25px;
+            display: list-item;
+            // padding: 0 20px;
+            list-style: none;
+            box-sizing: border-box;
+            .single-line-div{
+                // height:50px;
+                display: flex;
+                align-items: center;
+                label{
+                    margin: 10px 15px;
+                    color: rgb(1, 1, 127);
+                }
+                .user-name{
+                    display: flex;
+                        text-align: left;
+                            margin: 10px 0;
+                            font-weight: bold;
+                            color: rgb(1, 1, 127);
+                            p{
+                                margin: 0;
+                            }
+                    }
+                    .profile-input-field{
+                        border: 1px solid rgb(150, 150, 255);
+                        padding: 10px 15px;
+                        font-size: 18px;
+                        border-radius: 5px;
+                        width: 250px;
+                        // margin: 10px;
+                        color: rgb(1, 1, 127);
+                        letter-spacing: 2px;
+                        outline: none;
+                    }
+                    .profile-input-field:focus{
+                        border: 1px solid orange;
+                        outline: 2px solid orange;
+                    }
+                    .profile-input-field::placeholder{
+                        font-size: 15px;
+                        color: rgb(169, 169, 169);
+                    }
+                }
+                .submit-bt{
+                    background-color: orange;
+                    border: none;
+                    margin: 20px 0;
+                    padding: 15px 25px;
+                    font-size: 18px;
+                    color: white;
+                    font-weight: 600;
+                    border-radius: 10px;
+                }
+                .submit-bt:hover{
+                    cursor: pointer;
+                }
+        }
+}
+@media screen and(max-width:750px) {
+    .profile-main-div{
+
+        box-sizing: border-box;
+        form{
+            box-sizing: border-box;
+            // padding: 0 40px;
+            // background-color: red;
+            .single-line-div{
+                .user-name{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

@@ -1,5 +1,7 @@
 .employee-list-m-div{
-    padding-bottom: 60px;
+    padding: 20px;
+    background-image: url('../images/2895036.png');
+    background-repeat: no-repeat;
     .h2-heading{
         line-height: 45px;
         letter-spacing: 5px;
@@ -14,7 +16,7 @@
             padding: 10px 25px;
             display: flex;
             // flex-wrap: wrap;
-            border: 1px solid gray;
+            border: 1px solid rgb(144, 144, 144);
             margin: 10px 0;
             justify-content: space-between;
             .jestify-div{
@@ -67,8 +69,8 @@
         }
         .main-list-emp-div:hover{
             cursor: pointer;
-            border: 1px solid white;
-            background-color: rgb(225, 225, 225);
+            border: 1px solid transparent;
+            background-color: rgba(250,250,250,0.2)
         }
     }
 }

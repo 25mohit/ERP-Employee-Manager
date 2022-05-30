@@ -1,0 +1,117 @@
+.profile-model {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profile-model .container {
+  background-color: white;
+  border-radius: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px 60px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profile-model .container form {
+  text-align: left;
+  padding: 0;
+}
+
+.profile-model .container form .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.profile-model .container form .header .closeBt {
+  background-color: white;
+  font-size: 20px;
+  border: none;
+}
+
+.profile-model .container form .header .closeBt:hover {
+  cursor: pointer;
+}
+
+.profile-model .container form .profile-text-input {
+  border: 1px solid #9696ff;
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  width: 350px;
+  margin: 10px 0;
+  color: #01017f;
+  letter-spacing: 2px;
+  outline: none;
+}
+
+.profile-model .container form .profile-text-input:focus {
+  border: 1px solid orange;
+  outline: 2px solid orange;
+}
+
+.profile-model .container form ::-webkit-input-placeholder {
+  font-size: 15px;
+  color: darkgray;
+}
+
+.profile-model .container form :-ms-input-placeholder {
+  font-size: 15px;
+  color: darkgray;
+}
+
+.profile-model .container form ::-ms-input-placeholder {
+  font-size: 15px;
+  color: darkgray;
+}
+
+.profile-model .container form ::placeholder {
+  font-size: 15px;
+  color: darkgray;
+}
+
+.profile-model .container form .submitBt {
+  background-color: orange;
+  border: none;
+  margin: 20px 0;
+  padding: 15px 25px;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.profile-model .container form .submitBt:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=ProfileModel.css.map */

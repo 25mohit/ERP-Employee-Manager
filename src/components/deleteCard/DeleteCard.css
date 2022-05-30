@@ -1,0 +1,53 @@
+.delete-card-main-div {
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.delete-card-main-div .container {
+  padding: 30px;
+  border-radius: 20px;
+  width: 300px;
+  background-color: white;
+}
+
+.delete-card-main-div .container .bts {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.delete-card-main-div .container .bts button {
+  border: none;
+  font-size: 20px;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+
+.delete-card-main-div .container .bts button:hover {
+  cursor: pointer;
+}
+
+.delete-card-main-div .container .bts .cancel {
+  background-color: #02c202;
+  color: white;
+}
+
+.delete-card-main-div .container .bts .approve {
+  color: white;
+  background-color: red;
+}
+/*# sourceMappingURL=DeleteCard.css.map */

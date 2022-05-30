@@ -1,0 +1,37 @@
+.register-error {
+  position: fixed;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  right: 5%;
+  bottom: 5%;
+  background-color: #fed7d7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 20px;
+  padding: 15px 25px;
+}
+
+.register-error .error {
+  margin: 0;
+  color: red;
+  font-weight: bold;
+}
+
+.register-error .close-err-bt {
+  color: red;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  background-color: transparent;
+}
+
+.register-error .close-err-bt:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=RegisterError.css.map */

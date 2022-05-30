@@ -9,6 +9,8 @@
   display: -ms-flexbox;
   display: flex;
   padding-bottom: 40px;
+  background-image: url("../images/2895036.png");
+  background-repeat: no-repeat;
 }
 
 .add-employee-div .form-div-employe {

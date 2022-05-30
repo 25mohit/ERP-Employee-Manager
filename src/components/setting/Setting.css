@@ -1,6 +1,8 @@
 .setting-div {
   padding: 20px 0;
   padding-bottom: 100px;
+  background-image: url("../images/2895036.png");
+  background-repeat: no-repeat;
 }
 
 .setting-div .setting-form .setting-text-input {

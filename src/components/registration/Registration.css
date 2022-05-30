@@ -60,7 +60,11 @@
           align-items: center;
 }
 
-.registration-div-52 .container-register-52 .center-div-52 .form-div-99 .main-center input[type=text], .registration-div-52 .container-register-52 .center-div-52 .form-div-99 .main-center input[type=password] {
+.registration-div-52 .container-register-52 .center-div-52 .form-div-99 .main-center {
+  text-align: left;
+}
+
+.registration-div-52 .container-register-52 .center-div-52 .form-div-99 .main-center .input-fields {
   margin: 5px 0;
   padding: 15px;
   font-size: 20px;
@@ -89,7 +93,7 @@
   color: #bfbfbf;
 }
 
-.registration-div-52 .container-register-52 .center-div-52 .form-div-99 .main-center input[type=text]:focus, .registration-div-52 .container-register-52 .center-div-52 .form-div-99 .main-center input[type=password]:focus {
+.registration-div-52 .container-register-52 .center-div-52 .form-div-99 .main-center .input-fields:focus {
   outline: 3px solid rgba(6, 23, 255, 0.6);
 }
 
@@ -106,6 +110,18 @@
 
 .registration-div-52 .container-register-52 .center-div-52 .form-div-99 .main-center .register-bt:hover {
   cursor: pointer;
+  -webkit-box-shadow: 1px 1px 20px 1px rgba(81, 81, 81, 0.9);
+          box-shadow: 1px 1px 20px 1px rgba(81, 81, 81, 0.9);
+}
+
+.registration-div-52 .container-register-52 .center-div-52 .form-div-99 .main-center .password-error {
+  color: red;
+  font-weight: 500;
+  display: none;
+}
+
+.registration-div-52 .container-register-52 .center-div-52 .form-div-99 .main-center input[type=password]:invalid ~ span {
+  display: block;
 }
 
 @media screen and (max-width: 750px) {

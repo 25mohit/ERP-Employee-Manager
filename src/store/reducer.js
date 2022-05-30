@@ -5,7 +5,8 @@ const initialState = {
         loggedInUser: null,
         employees:[],
         lockPassword: '',
-        unLockedUser:null
+        unLockedUser:null,
+        profileDate: ''
 }
 const reducer = (state = initialState, action) => {
         switch(action.type){
@@ -42,6 +43,11 @@ const reducer = (state = initialState, action) => {
                 case "LOGIN_LOCK_PROFILE":
                     return{
                         unLockedUser:action.payload
+                    }
+                case "UPDATE_PROFILE":
+                    return{
+                        ...state,
+                        profileDate: action.payload
                     }
                     default:
                         return state;

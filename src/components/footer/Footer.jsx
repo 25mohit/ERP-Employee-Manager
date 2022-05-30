@@ -1,11 +1,19 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { useDispatch, useSelector } from 'react-redux'
+import { Link, useNavigate } from 'react-router-dom'
 import { AboutMe } from '../aboueMe/AboutMe'
 import './Footer.css' 
 
 export const Footer = () => {
     const [showMe, setShowMe] = useState(false)
-
+    const dispatch = useDispatch()
+    const navigate = useNavigate()
+        const logout = () => {
+                dispatch({
+                        type: "LOGOUT_USER"
+                })
+                navigate('/')
+        }
     const showAboutMe = () => {
         setShowMe(true)
     }
@@ -20,12 +28,12 @@ export const Footer = () => {
                         <div className="footer-links-colum-1">
                                 <p className='heading-p'>Quick Links</p>
                                 <ul>
-                                    <li>Home</li>
-                                    <li>Add Employee</li>
-                                    <li>Employee List</li>
-                                    <li>Profile</li>
-                                    <li>Setting</li>
-                                    <li>Logout</li>
+                                    <li><Link to='/'>Home</Link></li>
+                                    <li><Link to='/addemployee'>Add Employee</Link></li>
+                                    <li><Link to='/employeelist'>Employee List</Link></li>
+                                    <li><Link to='/profile'>Profile</Link></li>
+                                    <li><Link to='/settings'>Setting</Link></li>
+                                    <li onClick={logout}>Logout</li>
                                 </ul>
                         </div>
                         <div className="footer-links-colum-2">

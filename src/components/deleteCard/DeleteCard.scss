@@ -1,0 +1,37 @@
+.delete-card-main-div{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    .container{
+        padding: 30px;
+        border-radius: 20px;
+        width: 300px;
+        background-color: white;
+        .bts{
+            justify-content: space-around;
+            display: flex;
+            button{
+                border: none;
+                font-size: 20px;
+                padding: 15px 20px;
+                font-weight: bold;
+            }
+            button:hover{
+                cursor: pointer;
+            }
+            .cancel{
+                background-color: rgb(2, 194, 2);
+                color: white;
+            }
+            .approve{
+                color: white;
+                background-color: red;
+            }
+        }
+    }
+}

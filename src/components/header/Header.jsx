@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import './Header.css'
 
 export const Header = () => {
@@ -14,11 +14,13 @@ export const Header = () => {
   setInterval(
       updateTime
   , 1000);
+   const navigate = useNavigate()
     const dispatch = useDispatch()
     const logoutUser = () => {
         dispatch({
             type:'LOGOUT_USER'
         })
+        navigate('/')
     }
   return (
     <div className='header-div'>
@@ -27,7 +29,7 @@ export const Header = () => {
                     <li><Link to='/'>Home</Link></li>
                     <li><Link to='/employeelist'>Employees List</Link></li>
                     <li><Link to='/addemployee'>Add Employees</Link></li>
-                    <li>Profile</li>
+                    <li><Link to='/profile'>Profile</Link></li>
                     <li><Link to='/settings'>Settings</Link></li>
                 </ul>
           </div>

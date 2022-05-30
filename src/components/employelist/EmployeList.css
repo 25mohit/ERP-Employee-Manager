@@ -1,5 +1,7 @@
 .employee-list-m-div {
-  padding-bottom: 60px;
+  padding: 20px;
+  background-image: url("../images/2895036.png");
+  background-repeat: no-repeat;
 }
 
 .employee-list-m-div .h2-heading {
@@ -23,7 +25,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 1px solid gray;
+  border: 1px solid #909090;
   margin: 10px 0;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -95,8 +97,8 @@
 
 .employee-list-m-div .list-div .main-list-emp-div:hover {
   cursor: pointer;
-  border: 1px solid white;
-  background-color: #e1e1e1;
+  border: 1px solid transparent;
+  background-color: rgba(250, 250, 250, 0.2);
 }
 
 @media screen and (max-width: 750px) {

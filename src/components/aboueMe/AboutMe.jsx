@@ -44,14 +44,14 @@ export const AboutMe = ({ setShowMe }) => {
                                                 <div className='ul-div'>
                                                     <li className='social-media'><img src={ github } alt="" /><div className='social-text'>
                                                         <a href='https://github.com/25mohit' target='_blank' rel="noreferrer">25mohit</a></div></li>
+                                                    <li className='social-media'><img src={linkdin} alt="" /><div className='social-text'>
+                                                    <a href='https://www.linkedin.com/in/agarwal24/' target='_blank' rel="noreferrer">agarwal24</a></div></li>
                                                     <li className='social-media'><img src={ facebok } alt="" /><div className='social-text'>
                                                     <a href='https://www.facebook.com/mohit724agarwal' target='_blank' rel="noreferrer">mohit724agarwal</a></div></li>
                                                     <li className='social-media'><img src={twitter} alt="" /><div className='social-text'>
                                                     <a href='https://twitter.com/mo_hit24' target='_blank' rel="noreferrer">mo_hit24</a></div></li>
                                                     <li className='social-media'><img src={instagram} alt="" /><div className='social-text'>
                                                     <a href='https://www.instagram.com/im_hit_/' target='_blank' rel="noreferrer">im_hit_</a></div></li>
-                                                    <li className='social-media'><img src={linkdin} alt="" /><div className='social-text'>
-                                                    <a href='https://www.linkedin.com/in/agarwal24/' target='_blank' rel="noreferrer">agarwal24</a></div></li>
                                                 </div>
                                             </p>
                                             <p className="skills">
@@ -65,10 +65,11 @@ export const AboutMe = ({ setShowMe }) => {
                                             </p>
                                             <p className="skills">
                                                 <strong>my other projects</strong>
-                                                <span><a href='https://twitter-clone-2022.herokuapp.com/' target='_blank' rel="noreferrer">Twitter Clone</a></span>
-                                                <span><a href='https://mytodo22.herokuapp.com/' target='_blank' rel="noreferrer">TODO App</a></span>
+                                                <span><a href='https://erp-employees-manager.herokuapp.com/' target='_blank' rel="noreferrer">Employees Manager (ERP)</a></span>
                                                 <span><a href='https://erp-wages-manger.herokuapp.com/' target='_blank' rel="noreferrer">Wages Manager (ERP)</a></span>
-                                                <span><a href='https://erp-wages-manger.herokuapp.com/' target='_blank' rel="noreferrer">Employees Manager (ERP)</a></span>
+                                                <span><a href='https://mytodo22.herokuapp.com/' target='_blank' rel="noreferrer">TODO App</a></span>
+                                                <span><a href='https://twitter-clone-2022.herokuapp.com/' target='_blank' rel="noreferrer">Twitter Clone</a></span>
+                                                <span><a href='https://instagram-clone-22.herokuapp.com/' target='_blank' rel="noreferrer">Instagram Clone</a></span>
                                             </p>
                                     </div>
                             </div>

@@ -4,12 +4,13 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 100vw;
+  width: 100%;
   padding-top: 100px;
   padding-bottom: 40px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-image: url("../images/2895036.png");
 }
 
 .hero-section-div .left-hero {
@@ -23,6 +24,7 @@
 .hero-section-div .left-hero .message {
   line-height: 45px;
   letter-spacing: 5px;
+  color: white;
   text-align: left;
 }
 
@@ -65,7 +67,7 @@
 }
 
 .hero-section-div .right-hero .h2-list .emplo-list {
-  background-color: #ededed;
+  background-color: rgba(250, 250, 250, 0.7);
   margin: 10px 0;
   width: 350px;
   border-radius: 5px;

@@ -36,7 +36,8 @@
                     display: flex;
                     align-items: center;
                     .main-center{
-                        input[type=text],input[type=password]{
+                        text-align: left;
+                       .input-fields{
                             margin: 5px 0;
                             padding: 15px;
                             font-size: 20px;
@@ -48,7 +49,7 @@
                             padding-left: 10px;
                             color: rgb(191, 191, 191);
                         }
-                        input[type=text]:focus, input[type=password]:focus{
+                       .input-fields:focus{
                             outline: 3px solid rgba(6, 23, 255, 0.6);
                             // outline-color: red;
                         }
@@ -64,6 +65,15 @@
                         }
                         .register-bt:hover{
                             cursor: pointer;
+                            box-shadow: 1px 1px 20px 1px rgba(81, 81, 81, 0.9);
+                        }
+                        .password-error{
+                            color: red;
+                            font-weight: 500;
+                            display: none;
+                        }
+                        input[type=password]:invalid ~ span{
+                            display: block;
                         }
                     }
                 }

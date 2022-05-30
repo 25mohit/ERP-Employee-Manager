@@ -1,0 +1,27 @@
+.register-error{
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    right: 5%;
+    bottom: 5%;
+    background-color: rgb(254, 215, 215);
+    display: flex;
+    border-radius: 20px;
+    padding: 15px 25px;
+    .error{
+        margin: 0;
+        color: red;
+        font-weight: bold;
+    }
+    .close-err-bt{
+        color: red;
+        margin-right: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        border: none;
+        background-color: transparent;
+    }
+    .close-err-bt:hover{
+        cursor: pointer;
+    }
+}

@@ -24,7 +24,7 @@ export const Setting = () => {
                     alert(`Password didn't matches`)
                 }
             }else{
-                alert('Password FIelds must not be Empty')
+                alert('Password Fields must not be Empty..')
             }
        } else{
            alert(`Your current password didn't matches`)

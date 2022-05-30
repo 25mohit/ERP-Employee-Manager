@@ -15,6 +15,7 @@ import { Setting } from './components/setting/Setting';
 import { Lock } from './components/lock/Lock'
 import { LockModel } from './components/lockModel/LockModel';
 import { useState } from 'react';
+import { Profile } from './components/profile/Profile';
 
 function App() {
   const [showLockScreen, setShowLockScreen] = useState(false)
@@ -45,6 +46,7 @@ function App() {
             <Route path='/addemployee' exact element={<AddEmployee />} />
             <Route path='/employeelist' exact element={<EmployeList />} />
             <Route path='/settings' exact element={<Setting />} />
+            <Route path='/profile' exact element={<Profile />} />
         </Routes>
                 {
                   user &&  <div onClick={ lockScreen } ><Lock /></div>

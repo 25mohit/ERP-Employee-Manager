@@ -1,0 +1,116 @@
+.profile-main-div {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px 0;
+  background-image: url("../images/2895036.png");
+  background-repeat: no-repeat;
+}
+
+.profile-main-div form {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 25px;
+  display: list-item;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.profile-main-div form .single-line-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile-main-div form .single-line-div label {
+  margin: 10px 15px;
+  color: #01017f;
+}
+
+.profile-main-div form .single-line-div .user-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+  margin: 10px 0;
+  font-weight: bold;
+  color: #01017f;
+}
+
+.profile-main-div form .single-line-div .user-name p {
+  margin: 0;
+}
+
+.profile-main-div form .single-line-div .profile-input-field {
+  border: 1px solid #9696ff;
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  width: 250px;
+  color: #01017f;
+  letter-spacing: 2px;
+  outline: none;
+}
+
+.profile-main-div form .single-line-div .profile-input-field:focus {
+  border: 1px solid orange;
+  outline: 2px solid orange;
+}
+
+.profile-main-div form .single-line-div .profile-input-field::-webkit-input-placeholder {
+  font-size: 15px;
+  color: darkgray;
+}
+
+.profile-main-div form .single-line-div .profile-input-field:-ms-input-placeholder {
+  font-size: 15px;
+  color: darkgray;
+}
+
+.profile-main-div form .single-line-div .profile-input-field::-ms-input-placeholder {
+  font-size: 15px;
+  color: darkgray;
+}
+
+.profile-main-div form .single-line-div .profile-input-field::placeholder {
+  font-size: 15px;
+  color: darkgray;
+}
+
+.profile-main-div form .submit-bt {
+  background-color: orange;
+  border: none;
+  margin: 20px 0;
+  padding: 15px 25px;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.profile-main-div form .submit-bt:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+  .profile-main-div {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .profile-main-div form {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .profile-main-div form .single-line-div .user-name {
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=Profile.css.map */
